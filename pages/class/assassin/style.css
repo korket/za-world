@@ -75,45 +75,10 @@ main {
     height: 100vh;
     min-height: 600px;
     justify-content: center;
-    align-items: center;
     margin: 0 auto;
-    background-image: url("/background.jpg");
-    background-repeat: no-repeat;
+    background-image: url("/4060492.jpg");
+    background-repeat: repeat;
     background-size: cover;
-}
-
-.welcome-container {
-    display: inline-flex;
-    background-color: #ffffff10;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.welcome {
-    display: inline-flex;
-    font-size: 4rem;
-    padding: 1rem;
-}
-
-.welcome-zw {
-    display: flex;
-    color: aquamarine;
-    margin-left: 1.5rem;
-}
-
-.description {
-    display: flex;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-.description > b {
-    display: flex;
-    margin-left: 0.5rem;
-    justify-content: center;
 }
 
 /* Footer Styles */
