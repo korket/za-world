@@ -102,21 +102,22 @@ main {
 .header-nav-ul {
     display: flex;
     background-color: #222222;
+    padding: 1.5%;
     justify-content: space-evenly;
 }
 
 .header-nav-li {
-    display: inline-flex;
-    list-style-type: none;
+    display: flex;
+}
+
+.header-nav-li>a {
+    display: flex;
     font-weight: bold;
 }
 
-
-
-.header-nav-li>a {}
-
 .header-nav-li>a:hover {
-    background-color: aquamarine;
+    color: aquamarine;
+
 }
 
 /* Footer Styles */
