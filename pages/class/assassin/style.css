@@ -10,11 +10,16 @@ html {
 }
 
 body {
-    background: gray;
-    color: white;
     display: flex;
     flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 100vh;
     min-height: 100%;
+    margin: 0 auto;
+    background-image: url("../../../4060492.jpg");
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 a {
@@ -70,18 +75,12 @@ nav {
 /* Main Content Styles */
 
 main {
-    width: 100%;
-    height: 100vh;
-    min-height: 600px;
-    margin: 0 auto;
-    background-image: url("../../../4060492.jpg");
-    background-repeat: repeat;
-    background-size: cover;
+
 }
 
-/* Header Styles */
+/* Navigation Content Styles */
 
-.header {
+.content-nav {
     display: block;
     background-color: #3b3737;
     width: 75%;
@@ -99,26 +98,34 @@ main {
     padding-bottom: 2.5%;
 }
 
-.header-nav-ul {
+.content-nav-ul {
     display: flex;
     background-color: #222222;
     padding: 1.5%;
     justify-content: space-evenly;
 }
 
-.header-nav-li {
+.content-nav-li {
     display: flex;
 }
 
-.header-nav-li>a {
+.content-nav-li>a {
     display: flex;
     font-weight: bold;
 }
 
-.header-nav-li>a:hover {
+.content-nav-li>a:hover {
     color: aquamarine;
 
 }
+
+/* Main Content */
+
+
+
+/* Introduction Styles*/
+
+
 
 /* Footer Styles */
 
