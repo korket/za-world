@@ -75,7 +75,12 @@ nav {
 /* Main Content Styles */
 
 main {
-
+    display: block;
+    width: 75%;
+    background-color: #3b3737;
+    margin: 10% auto;
+    padding: 0 auto;
+    border-radius: 10px;
 }
 
 /* Navigation Content Styles */
@@ -83,14 +88,13 @@ main {
 .content-nav {
     display: block;
     background-color: #3b3737;
-    width: 75%;
-    margin: 10% auto;
     padding: 0 auto;
     border-radius: 10px;
 }
 
 .class {
     padding: 2.5%;
+    color: yellow;
 }
 
 .stat {
@@ -118,10 +122,6 @@ main {
     color: aquamarine;
 
 }
-
-/* Main Content */
-
-
 
 /* Introduction Styles*/
 
