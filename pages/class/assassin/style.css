@@ -31,7 +31,7 @@ a {
 
 nav {
     display: flex;
-    background-color: #3b3737;
+    background-color: #2b2b2b;
     padding: 0.5rem;
 }
 
@@ -77,7 +77,7 @@ nav {
 main {
     display: block;
     width: 75%;
-    background-color: #3b3737;
+    background-color: #2b2b2b;
     margin: 10% auto;
     padding: 0 auto;
     border-radius: 10px;
@@ -87,7 +87,7 @@ main {
 
 .content-nav {
     display: block;
-    background-color: #3b3737;
+    background-color: #2b2b2b;
     padding: 0 auto;
     border-radius: 10px;
 }
@@ -125,13 +125,65 @@ main {
 
 /* Introduction Styles*/
 
+#introduction {
+    margin: 1% 1% -2% 1%;
+    padding: 2.5%;
+}
 
+.introduction-content {
+    background-color: #3b3b3b;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+/* Abilities Styles */
+
+#abilities {
+    margin: 0 1% -2% 1%;
+    padding: 2.5%;
+}
+
+.abilities-content {
+    background-color: #3b3b3b;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+/* Equipments Styles */
+
+#equipments {
+    margin: 0 1% -2% 1%;
+    padding: 2.5%;
+}
+
+.equipments-content {
+    background-color: #3b3b3b;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+/* Strategies Styles */
+
+#strategies {
+    margin: 0 1% 1% 1%;
+    padding: 2.5%;
+}
+
+.strategies-content {
+    background-color: #3b3b3b;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
 
 /* Footer Styles */
 
 footer {
     display: flex;
-    background-color: #3b3737;
+    background-color: #2b2b2b;
     padding: 1rem;
     justify-content: center;
     margin-top: auto;
