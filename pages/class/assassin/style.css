@@ -137,6 +137,11 @@ main {
     border-radius: 10px;
 }
 
+.introduction-content > p > span {
+    display: block;
+    color:#ababab;
+}
+
 /* Abilities Styles */
 
 #abilities {
