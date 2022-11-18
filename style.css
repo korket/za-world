@@ -1,0 +1,99 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+/* navigation bar */
+
+nav {
+    display: flex;
+    background-color: #2b2b2b;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo > a {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo > a:hover {
+    transition: 0.5s;
+    color: #7fffd4;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-li.class > a:hover {
+    transition: 0.5s;
+    color: #40e0d0;
+}
+
+.nav-li.boss > a:hover {
+    transition: 0.5s;
+    color: #dc143c;
+}
+
+/* main content styles */
+
+main {
+    display: flex;
+    background-image: url("./4060492.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.welcome-zw {
+    color: #7fffd4;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+/* footer styles */
+
+footer {
+    display: flex;
+    background-color: #2b2b2b;
+    color: white;
+    margin-top: auto;
+    justify-content: center;
+}
+
+footer > p {
+    font-size: 0.9rem;
+}
