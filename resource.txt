@@ -1,2 +1,4 @@
 ./background.jpg = https://unsplash.com/photos/eS1omi9_W58
 ./pages/class/4060492.jpg = https://www.freepik.com/free-vector/topographic-map-background_9002834.htm#query=topographic%20lines&position=17&from_view=keyword
+
+twrpg related icons = TWRPG Discord Bot
