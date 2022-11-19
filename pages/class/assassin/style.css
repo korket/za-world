@@ -36,12 +36,12 @@ nav {
     gap: 1rem;
 }
 
-.nav-li.class > a:hover {
+.nav-li-class > a:hover {
     transition: 0.5s;
     color: #40e0d0;
 }
 
-.nav-li.boss > a:hover {
+.nav-li-boss > a:hover {
     transition: 0.5s;
     color: #dc143c;
 }
