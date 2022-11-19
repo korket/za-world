@@ -110,6 +110,7 @@ main {
 #introduction {
     margin: .5rem;
     padding: .5rem;
+    width: 95%;
 }
 
 #introduction > h3 {
@@ -117,6 +118,65 @@ main {
 }
 
 .introduction-content {
+    padding: .1rem 1rem;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+}
+
+.introduction-content > p > span {
+    display: block;
+    color: #ff0033;
+}
+
+/* abilities */
+
+#abilities {
+    margin: .5rem;
+    padding: .5rem;
+    width: 95%;
+}
+
+#abilities > h3 {
+    margin: 0 0 .5rem .5rem;
+}
+
+.abilities-content {
+    padding: .1rem 1rem;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+}
+
+/* equipments */
+
+#equipments {
+    margin: .5rem;
+    padding: .5rem;
+    width: 95%;
+}
+
+#equipments > h3 {
+    margin: 0 0 .5rem .5rem;
+}
+
+.equipments-content {
+    padding: .1rem 1rem;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+}
+
+/* strategies */
+
+#strategies {
+    margin: .5rem;
+    padding: .5rem;
+    width: 95%;
+}
+
+#strategies > h3 {
+    margin: 0 0 .5rem .5rem;
+}
+
+.strategies-content {
     padding: .1rem 1rem;
     background-color: #3b3b3b;
     border-radius: 10px;
