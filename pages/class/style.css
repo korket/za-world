@@ -76,9 +76,7 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #3b3b3b;
-    border-radius: 10px;
-    margin: 3rem;
-    padding: 1rem;
+    padding-top: 1rem;
     width: 100%;
     max-width: 1075px;
 }
