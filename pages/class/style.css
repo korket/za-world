@@ -48,10 +48,10 @@ nav {
     color: #dc143c;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     nav {
         justify-content: flex-start;
-        padding-left: 10%;
+        padding-left: 15%;
         gap: 2rem;
     }
 
