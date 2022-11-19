@@ -77,14 +77,20 @@ main {
     background-color: #3b3b3b;
     border-radius: 10px;
     margin: 3rem;
-    padding: 1rem;
     width: 100%;
-    max-width: 1075px;
+    max-width: 1107px;
 }
 
 /* content navigation */
 
-
+.content-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1b1b;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
 
 /* footer styles */
 
