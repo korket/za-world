@@ -46,7 +46,7 @@ nav {
     color: #dc143c;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
     nav {
         justify-content: flex-start;
         padding-left: 20%;
@@ -97,7 +97,7 @@ main {
     text-align: center;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
     .welcome {
         flex-direction: row;
     }
