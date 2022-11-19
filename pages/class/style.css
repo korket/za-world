@@ -114,7 +114,7 @@ main {
     padding: 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .main-container {
         margin: 3rem;
         padding: 2rem;

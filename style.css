@@ -98,7 +98,7 @@ main {
     text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .welcome {
         flex-direction: row;
     }
