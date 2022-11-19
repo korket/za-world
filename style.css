@@ -46,6 +46,20 @@ nav {
     color: #dc143c;
 }
 
+@media (min-width: 1000px) {
+    nav {
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 20%;
+        gap: 2rem;
+    }
+
+    .nav-ul {
+        gap: 2.5rem;
+    }
+}
+
+
 /* main content styles */
 
 main {
