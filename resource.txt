@@ -1,4 +1,6 @@
 ./background.jpg = https://unsplash.com/photos/eS1omi9_W58
-./pages/class/4060492.jpg = https://www.freepik.com/free-vector/topographic-map-background_9002834.htm#query=topographic%20lines&position=17&from_view=keyword
+./pages/class/406049.jpg = https://www.freepik.com/free-vector/topographic-map-background_9002834.htm#query=topographic%20lines&position=17&from_view=keyword
 
 twrpg related icons = TWRPG Discord Bot
+./icons/class.png = https://www.flaticon.com/free-icons/weapon" title="weapon icons">Weapon icons created by Vector Stall - Flaticon
+./icons/boss.png = https://www.flaticon.com/free-icons/monster" title="monster icons">Monster icons created by Vector Stall - Flaticon
