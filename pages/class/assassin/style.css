@@ -226,6 +226,7 @@ main {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        max-width: 100%;
     }
 
     .ability-show {
