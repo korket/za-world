@@ -212,7 +212,7 @@ main {
     max-height: 50px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .abilities-content {
         display: flex;
         flex-direction: column;
