@@ -78,9 +78,7 @@ nav {
 
 main {
     display: flex;
-    background-image: url("./4060492.jpg");
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: #222222;
     min-height: 100vh;
     justify-content: center;
 
