@@ -242,6 +242,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .ability-d-title {
@@ -261,6 +262,7 @@ main {
     display: none;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .ability-q-title {
@@ -280,6 +282,7 @@ main {
     display: none;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .ability-w-title {
@@ -299,6 +302,7 @@ main {
     display: none;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .ability-e-title {
@@ -318,6 +322,7 @@ main {
     display: none;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .ability-r-title {
@@ -337,6 +342,7 @@ main {
     display: none;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .ability-t-title {
@@ -356,6 +362,7 @@ main {
     display: none;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .ability-f-title {
