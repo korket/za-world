@@ -235,24 +235,40 @@ main {
 }
 
 @media (min-width: 1000px) {
+    .abilities-container {
+        flex-direction: row;
+        
+    }
+
+
     .abilities-content {
-        display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .ability-select {
-        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         max-width: 100%;
-    }
+        gap: 2rem;
+}
 
     .ability-show {
         display: flex;
         justify-content: center;
         max-width: 425px;
+        padding: 0 0 0rem 1rem;
+    }
+
+    .abilities-gif {
+        justify-content: center;
+        flex: 1;
+    }
+
+    .abilities-gif img {
+        max-width: 25vw;
+        border: 5px solid #1b1b1b;
     }
 }
 
