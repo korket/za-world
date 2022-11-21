@@ -173,14 +173,22 @@ main {
     margin: 0 0 .5rem .5rem;
 }
 
+.abilities-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    min-height: 500px;
+    gap: 2rem;
+}
+
 .abilities-content {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 1rem;
-    background-color: #3b3b3b;
     border-radius: 10px;
     gap: 1rem;
-    min-height: 500px;
 }
 
 .ability-select {
@@ -211,6 +219,20 @@ main {
 
 .ability-show img {
     max-height: 50px;
+}
+
+.abilities-gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.abilities-gif img {
+    display: flex;
+    border: 2px solid #1b1b1b;
+    border-radius: 10px;
+    max-width: 85vw;
 }
 
 @media (min-width: 1000px) {
