@@ -261,11 +261,12 @@ main {
 
     .abilities-video {
         justify-content: center;
+        align-items: flex-start;
         flex: 1;
     }
 
     .abilities-video video {
-        max-width: 95%;
+        max-width: 97%;
         border: 5px solid #1b1b1b;
     }
 }
