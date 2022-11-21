@@ -34,6 +34,8 @@ button_r.addEventListener('click', showR);
 button_t.addEventListener('click', showT);
 button_f.addEventListener('click', showF);
 
+window.onload = showD;
+
 function showD() {
     ability_d.style.display = 'flex';
     ability_q.style.display = 'none';
