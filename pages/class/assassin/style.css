@@ -234,10 +234,6 @@ main {
     max-width: 85vw;
 }
 
-.ability-video-d {
-    display: flex;
-}
-
 @media (min-width: 1000px) {
     .abilities-container {
         flex-direction: row;
@@ -274,142 +270,22 @@ main {
     }
 }
 
-/* ability d */
+/* ability */
 
-.ability-d {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-}
-
-.ability-d-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ability-d-description {
-    display: flex;
-    flex-direction: column;
-}
-
-/* ability q */
-
-.ability-q {
+.ability {
     display: none;
     flex-direction: column;
     gap: 1rem;
     width: 100%;
 }
 
-.ability-q-title {
+.ability-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.ability-q-description {
-    display: flex;
-    flex-direction: column;
-}
-
-/* ability w */
-
-.ability-w {
-    display: none;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-}
-
-.ability-w-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ability-w-description {
-    display: flex;
-    flex-direction: column;
-}
-
-/* ability e */
-
-.ability-e {
-    display: none;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-}
-
-.ability-e-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ability-e-description {
-    display: flex;
-    flex-direction: column;
-}
-
-/* ability r */
-
-.ability-r {
-    display: none;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-}
-
-.ability-r-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ability-r-description {
-    display: flex;
-    flex-direction: column;
-}
-
-/* ability t */
-
-.ability-t {
-    display: none;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-}
-
-.ability-t-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ability-t-description {
-    display: flex;
-    flex-direction: column;
-}
-
-/* ability f */
-
-.ability-f {
-    display: none;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-}
-
-.ability-f-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ability-f-description {
+.ability-description {
     display: flex;
     flex-direction: column;
 }
