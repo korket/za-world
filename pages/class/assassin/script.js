@@ -1,29 +1,29 @@
 const ability_d = document.querySelector('.ability-d');
-const gif_d = document.querySelector('.abilities-gif-d');
+const video_d = document.querySelector('.ability-video-d');
 const button_d = document.querySelector('.button-d');
 
 const ability_q = document.querySelector('.ability-q');
-const gif_q = document.querySelector('.abilities-gif-q');
+const video_q = document.querySelector('.ability-video-q');
 const button_q = document.querySelector('.button-q');
 
 const ability_w = document.querySelector('.ability-w');
-const gif_w = document.querySelector('.abilities-gif-w');
+const video_w = document.querySelector('.ability-video-w');
 const button_w = document.querySelector('.button-w');
 
 const ability_e = document.querySelector('.ability-e');
-const gif_e = document.querySelector('.abilities-gif-e');
+const video_e = document.querySelector('.ability-video-e');
 const button_e = document.querySelector('.button-e');
 
 const ability_r = document.querySelector('.ability-r');
-const gif_r = document.querySelector('.abilities-gif-r');
+const video_r = document.querySelector('.ability-video-r');
 const button_r = document.querySelector('.button-r');
 
 const ability_t = document.querySelector('.ability-t');
-const gif_t = document.querySelector('.abilities-gif-t');
+const video_t = document.querySelector('.ability-video-t');
 const button_t = document.querySelector('.button-t');
 
 const ability_f = document.querySelector('.ability-f');
-const gif_f = document.querySelector('.abilities-gif-f');
+const video_f = document.querySelector('.ability-video-f');
 const button_f = document.querySelector('.button-f');
 
 button_d.addEventListener('click', showD);
@@ -42,13 +42,13 @@ function showD() {
     ability_r.style.display = 'none';
     ability_t.style.display = 'none';
     ability_f.style.display = 'none';
-    gif_d.style.display = 'flex';
-    gif_q.style.display = 'none';
-    gif_w.style.display = 'none';
-    gif_e.style.display = 'none';
-    gif_r.style.display = 'none';
-    gif_t.style.display = 'none';
-    gif_f.style.display = 'none';
+    video_d.style.display = 'flex';
+    video_q.style.display = 'none';
+    video_w.style.display = 'none';
+    video_e.style.display = 'none';
+    video_r.style.display = 'none';
+    video_t.style.display = 'none';
+    video_f.style.display = 'none';
 }
 
 function showQ() {
@@ -59,13 +59,13 @@ function showQ() {
     ability_r.style.display = 'none';
     ability_t.style.display = 'none';
     ability_f.style.display = 'none';
-    gif_d.style.display = 'none';
-    gif_q.style.display = 'flex';
-    gif_w.style.display = 'none';
-    gif_e.style.display = 'none';
-    gif_r.style.display = 'none';
-    gif_t.style.display = 'none';
-    gif_f.style.display = 'none';
+    video_d.style.display = 'none';
+    video_q.style.display = 'flex';
+    video_w.style.display = 'none';
+    video_e.style.display = 'none';
+    video_r.style.display = 'none';
+    video_t.style.display = 'none';
+    video_f.style.display = 'none';
 }
 
 function showW() {
@@ -76,13 +76,13 @@ function showW() {
     ability_r.style.display = 'none';
     ability_t.style.display = 'none';
     ability_f.style.display = 'none';
-    gif_d.style.display = 'none';
-    gif_q.style.display = 'none';
-    gif_w.style.display = 'flex';
-    gif_e.style.display = 'none';
-    gif_r.style.display = 'none';
-    gif_t.style.display = 'none';
-    gif_f.style.display = 'none';
+    video_d.style.display = 'none';
+    video_q.style.display = 'none';
+    video_w.style.display = 'flex';
+    video_e.style.display = 'none';
+    video_r.style.display = 'none';
+    video_t.style.display = 'none';
+    video_f.style.display = 'none';
 }
 
 function showE() {
@@ -93,13 +93,13 @@ function showE() {
     ability_r.style.display = 'none';
     ability_t.style.display = 'none';
     ability_f.style.display = 'none';
-    gif_d.style.display = 'none';
-    gif_q.style.display = 'none';
-    gif_w.style.display = 'none';
-    gif_e.style.display = 'flex';
-    gif_r.style.display = 'none';
-    gif_t.style.display = 'none';
-    gif_f.style.display = 'none';
+    video_d.style.display = 'none';
+    video_q.style.display = 'none';
+    video_w.style.display = 'none';
+    video_e.style.display = 'flex';
+    video_r.style.display = 'none';
+    video_t.style.display = 'none';
+    video_f.style.display = 'none';
 }
 
 function showR() {
@@ -110,13 +110,13 @@ function showR() {
     ability_r.style.display = 'flex';
     ability_t.style.display = 'none';
     ability_f.style.display = 'none';
-    gif_d.style.display = 'none';
-    gif_q.style.display = 'none';
-    gif_w.style.display = 'none';
-    gif_e.style.display = 'none';
-    gif_r.style.display = 'flex';
-    gif_t.style.display = 'none';
-    gif_f.style.display = 'none';
+    video_d.style.display = 'none';
+    video_q.style.display = 'none';
+    video_w.style.display = 'none';
+    video_e.style.display = 'none';
+    video_r.style.display = 'flex';
+    video_t.style.display = 'none';
+    video_f.style.display = 'none';
 }
 
 function showT() {
@@ -127,13 +127,13 @@ function showT() {
     ability_r.style.display = 'none';
     ability_t.style.display = 'flex';
     ability_f.style.display = 'none';
-    gif_d.style.display = 'none';
-    gif_q.style.display = 'none';
-    gif_w.style.display = 'none';
-    gif_e.style.display = 'none';
-    gif_r.style.display = 'none';
-    gif_t.style.display = 'flex';
-    gif_f.style.display = 'none';
+    video_d.style.display = 'none';
+    video_q.style.display = 'none';
+    video_w.style.display = 'none';
+    video_e.style.display = 'none';
+    video_r.style.display = 'none';
+    video_t.style.display = 'flex';
+    video_f.style.display = 'none';
 }
 
 function showF() {
@@ -144,11 +144,11 @@ function showF() {
     ability_r.style.display = 'none';
     ability_t.style.display = 'none';
     ability_f.style.display = 'flex';
-    gif_d.style.display = 'none';
-    gif_q.style.display = 'none';
-    gif_w.style.display = 'none';
-    gif_e.style.display = 'none';
-    gif_r.style.display = 'none';
-    gif_t.style.display = 'none';
-    gif_f.style.display = 'flex';
+    video_d.style.display = 'none';
+    video_q.style.display = 'none';
+    video_w.style.display = 'none';
+    video_e.style.display = 'none';
+    video_r.style.display = 'none';
+    video_t.style.display = 'none';
+    video_f.style.display = 'flex';
 }

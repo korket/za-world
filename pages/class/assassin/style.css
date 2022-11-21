@@ -221,25 +221,27 @@ main {
     max-height: 50px;
 }
 
-.abilities-gif {
+.abilities-video {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.abilities-gif img {
+.abilities-video video {
     display: none;
     border: 2px solid #1b1b1b;
     border-radius: 10px;
     max-width: 85vw;
 }
 
+.ability-video-d {
+    display: flex;
+}
+
 @media (min-width: 1000px) {
     .abilities-container {
         flex-direction: row;
-        
     }
-
 
     .abilities-content {
         flex-direction: column;
@@ -261,12 +263,12 @@ main {
         padding: 0 0 0rem 1rem;
     }
 
-    .abilities-gif {
+    .abilities-video {
         justify-content: center;
         flex: 1;
     }
 
-    .abilities-gif img {
+    .abilities-video video {
         max-width: 95%;
         border: 5px solid #1b1b1b;
     }
