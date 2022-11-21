@@ -196,11 +196,11 @@ main {
     background-color: #2b2b2b;
     flex-direction: column;
     justify-content: space-between;
-    gap: 2rem;
     padding: 0.5rem;
     max-width: 3rem;
     border-radius: 10px;
     flex-basis: 10%;
+    max-height: 425px;
 }
 
 .ability-select button {
