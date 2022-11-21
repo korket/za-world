@@ -267,7 +267,7 @@ main {
     }
 
     .abilities-gif img {
-        max-width: 25vw;
+        max-width: 95%;
         border: 5px solid #1b1b1b;
     }
 }
