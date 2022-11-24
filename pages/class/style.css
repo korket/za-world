@@ -1,4 +1,4 @@
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@ li,
 a {
     text-decoration: none;
     list-style: none;
-    color: white;
 }
 
 /* navigation bar */
@@ -19,7 +18,7 @@ nav {
     display: flex;
     background-color: #2b2b2b;
     align-items: center;
-    padding: 0 1rem 0 1rem;
+    padding: 1rem;
 }
 
 .nav-container {
@@ -56,6 +55,7 @@ nav {
 
 @media (min-width: 1000px) {
     nav {
+        padding: 0;
         justify-content: center;
     }
 
@@ -64,15 +64,15 @@ nav {
         max-width: 925px;
         align-items: center;
         justify-content: flex-start;
-        padding: 0 1rem 0 1rem;
-        gap: 2rem;
+        padding: 1rem;
+        padding-left: 0;
+        gap: 4rem;
     }
 
     .nav-ul {
         gap: 2.5rem;
     }
 }
-
 
 /* main content styles */
 
@@ -81,7 +81,6 @@ main {
     background-color: #222222;
     min-height: 100vh;
     justify-content: center;
-
 }
 
 .main-container {
@@ -89,14 +88,12 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #1b1b1b;
-    padding-top: 1rem;
     width: 100%;
-    max-width: 1075px;
 }
 
 .main-container>h1 {
-    display: flex;
-    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+    align-self: center;
 }
 
 .class-container {
@@ -114,20 +111,19 @@ main {
 .int {
     display: flex;
     flex-direction: column;
-    margin: 0 0 1rem 1rem;
-    padding: 0;
+    margin: 1rem;
 }
 
 .str>ul,
 .agi>ul,
 .int>ul {
     display: flex;
-    padding: 0;
+    padding: 1rem;
 }
 
 @media (min-width: 1000px) {
     .main-container {
-        margin: 3rem;
+        margin: 3rem 6rem;
         padding: 2rem;
         border-radius: 10px;
     }
@@ -143,6 +139,7 @@ main {
     .agi,
     .int {
         align-items: center;
+        gap: 2rem;
     }
 
     .str>ul,
@@ -160,9 +157,9 @@ main {
 footer {
     display: flex;
     background-color: #2b2b2b;
-    color: white;
     margin-top: auto;
     justify-content: center;
+    padding: 1rem;
 }
 
 footer>p {

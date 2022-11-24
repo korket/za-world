@@ -1,4 +1,4 @@
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,7 +10,10 @@ li,
 a {
     text-decoration: none;
     list-style: none;
-    color: white;
+}
+
+button {
+    color: black;
 }
 
 /* navigation bar */
@@ -19,7 +22,7 @@ nav {
     display: flex;
     background-color: #2b2b2b;
     align-items: center;
-    padding: 0 1rem 0 1rem;
+    padding: 1rem;
 }
 
 .nav-container {
@@ -56,6 +59,7 @@ nav {
 
 @media (min-width: 1000px) {
     nav {
+        padding: 0;
         justify-content: center;
     }
 
@@ -64,15 +68,15 @@ nav {
         max-width: 925px;
         align-items: center;
         justify-content: flex-start;
-        padding: 0 1rem 0 1rem;
-        gap: 2rem;
+        padding: 1rem;
+        padding-left: 0;
+        gap: 4rem;
     }
 
     .nav-ul {
         gap: 2.5rem;
     }
 }
-
 
 /* main content styles */
 
@@ -88,8 +92,17 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #2f2f2f;
-    margin: 0;
     width: 100%;
+}
+
+#introduction, #abilities, #equipments, #strategies {
+    margin: .5rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+#introduction>h3, #abilities>h3, #equipments>h3, #strategies>h3 {
+    margin: 0 0 .5rem .5rem;
 }
 
 @media (min-width: 1000px) {
@@ -97,6 +110,11 @@ main {
         border-radius: 10px;
         margin: 3rem;
         max-width: 1000px;
+    }
+
+    #introduction, #abilities, #equipments, #strategies {
+        padding: 1.5rem;
+        padding-top: 0.5rem;
     }
 }
 
@@ -107,17 +125,15 @@ main {
     flex-direction: column;
     background-color: #1b1b1b;
     width: 100%;
-    margin: 0;
 }
 
 .class {
-    padding: 1rem 0 0 1rem;
-    margin: 0;
+    padding: 1rem 1rem 0 1rem;
     color: #ffff00;
 }
 
 .stat {
-    padding-left: 1rem;
+    padding: 1rem;
 }
 
 .content-nav-ul {
@@ -140,18 +156,8 @@ main {
 
 /* introduction */
 
-#introduction {
-    margin: .5rem;
-    padding: .5rem;
-    width: 95%;
-}
-
-#introduction>h3 {
-    margin: 0 0 .5rem .5rem;
-}
-
 .introduction-content {
-    padding: .1rem 1rem;
+    padding: 1rem;
     background-color: #3b3b3b;
     border-radius: 10px;
 }
@@ -163,21 +169,11 @@ main {
 
 /* abilities */
 
-#abilities {
-    margin: .5rem;
-    padding: .5rem;
-    width: 95%;
-}
-
-#abilities>h3 {
-    margin: 0 0 .5rem .5rem;
-}
-
-.abilities-container {
+.abilities-content {
     display: grid;
     background-color: #3b3b3b;
     border-radius: 10px;
-    padding: 1rem 1rem;
+    padding: 1rem;
     gap: 1.5rem;
     grid-template-columns: 3rem 1fr;
 }
@@ -233,7 +229,7 @@ main {
 }
 
 @media (min-width: 1000px) {
-    .abilities-container {
+    .abilities-content {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 3rem 1fr;
     }
@@ -245,7 +241,7 @@ main {
 
     .abilities-button {
         flex-direction: row;
-        height: 2.5rem;
+        height: 3.5rem;
         max-width: 100%;
     }
 
@@ -260,7 +256,7 @@ main {
     }
 
     .abilities-video video {
-        max-width: 97%;
+        max-width: 100%;
         border: 5px solid #1b1b1b;
     }
 }
@@ -287,50 +283,19 @@ main {
 
 /* equipments */
 
-#equipments {
-    margin: .5rem;
-    padding: .5rem;
-    width: 95%;
-}
-
-#equipments>h3 {
-    margin: 0 0 .5rem .5rem;
-}
-
 .equipments-content {
-    padding: .1rem 1rem;
+    padding: 1rem;
     background-color: #3b3b3b;
     border-radius: 10px;
 }
 
 /* strategies */
 
-#strategies {
-    margin: .5rem;
-    padding: .5rem;
-    width: 95%;
-}
-
-#strategies>h3 {
-    margin: 0 0 .5rem .5rem;
-}
-
 .strategies-content {
-    padding: .1rem 1rem;
+    padding: 1rem;
     background-color: #3b3b3b;
     border-radius: 10px;
 }
 
 /* footer styles */
 
-footer {
-    display: flex;
-    background-color: #2b2b2b;
-    color: white;
-    margin-top: auto;
-    justify-content: center;
-}
-
-footer>p {
-    font-size: 0.9rem;
-}
