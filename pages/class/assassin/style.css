@@ -6,6 +6,10 @@
     color: white;
 }
 
+body {
+    overflow: overlay;
+}
+
 li,
 a {
     text-decoration: none;
@@ -14,6 +18,15 @@ a {
 
 button {
     color: black;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00000050;
 }
 
 /* navigation bar */
