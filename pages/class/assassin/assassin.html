@@ -68,8 +68,8 @@
             <div id="abilities">
                 <h3>Abilities</h3>
                 <div class="abilities-container">
-                    <div class="abilities-content">
-                        <div class="ability-select">
+                    <div class="abilities-select">
+                        <div class="abilities-button">
                             <button class="button-d">[D]</button>
                             <button class="button-q">[Q]</button>
                             <button class="button-w">[W]</button>
@@ -78,172 +78,173 @@
                             <button class="button-t">[T]</button>
                             <button class="button-f">[F]</button>
                         </div>
-
-                        <div class="ability-show">
-
-                            <!-- ability D -->
-
-                            <div class="ability ability-d">
-                                <div class="ability-d-title ability-title">
-                                    <h3>[D] Dark Shroud</h3>
-                                    <img src="./abilities/Assassin-D.jpg">
-                                </div>
-                                <div class="ability-d-description ability-description">
-                                    <a>[Proc Co-efficient]: 1</a>
-                                    <br>
-                                    <a>[Passive]</a>
-                                    <br>
-                                    <a>Ability to meld into darkness and assassinate effortlessly.</a>
-                                    <a>∴ Allows all skills to critically strike</a>
-                                    <a>∴ Enters stealth if out of combat for 2.5 seconds</a>
-                                    <a>∴ Backstabbing enemies while stealthed deals AGI X 5 bonus damage</a>
-                                    <a>∴ Reduces damage taken by 30% while stealthed</a>
-                                    <br>
-                                    <a>[Toggle]</a>
-                                    <br>
-                                    <a>∴ TOGGLE OFF: Enable invisibility</a>
-                                    <a>∴ TOGGLE ON: Disable invisibility</a>
-                                </div>
-                            </div>
-
-                            <!-- ability Q -->
-
-                            <div class="ability-q ability">
-                                <div class="ability-q-title ability-title">
-                                    <h3>[Q] Shadow Slash</h3>
-                                    <img src="./abilities/Assassin-Q.jpg">
-                                </div>
-                                <div class="ability-q-description ability-description">
-                                    <a>[Proc Co-efficient]: 1</a>
-                                    <br>
-                                    <a>[Active]</a>
-                                    <br>
-                                    <a>Perform a frontal slash aimed toward weak spots.</a>
-                                    <a>∴ Attack damage X 0.4 + AGI X 3.5 magic damage</a>
-                                    <a>∴ If an enemy is hit, obtains Shadow Mark for 10 seconds, increasing critical
-                                        chance
-                                        by
-                                        6% (up to 5 stacks)</a>
-                                    <a>∴ At max stacks, the duration no longer refreshes but resets cooldown on Shadow
-                                        Slash
-                                        and Shadow Rush</a>
-                                    <br>
-                                    <a>Cooldown: 3 seconds</a>
-                                </div>
-                            </div>
-
-                            <!-- ability W -->
-
-                            <div class="ability-w ability">
-                                <div class="ability-w-title ability-title">
-                                    <h3>[W] Ambush</h3>
-                                    <img src="./abilities/Assassin-W.jpg">
-                                </div>
-                                <div class="ability-w-description ability-description">
-                                    <a>[Proc Co-efficient]: 1</a>
-                                    <br>
-                                    <a>[Active]</a>
-                                    <br>
-                                    <a>Melds into the darkness to strike the enemy from behind.</a>
-                                    <a>∴ Attack damage X 1.25 + AGI X 7.5 magic damage</a>
-                                    <a>∴ Stuns for 1.5 seconds</a>
-                                    <a>∴ After cast, increases attack damage by 20% for 6 seconds</a>
-                                    <a>∴ Critical strike is guaranteed if used while invisible</a>
-                                    <br>
-                                    <a>Cooldown: 10 seconds</a>
-                                </div>
-                            </div>
-
-                            <!-- ability E -->
-
-                            <div class="ability-e ability">
-                                <div class="ability-e-title ability-title">
-                                    <h3>[E] Shadow Walk</h3>
-                                    <img src="./abilities/Assassin-E.jpg">
-                                </div>
-                                <div class="ability-e-description ability-description">
-                                    <a>[Proc Co-efficient]: 1</a>
-                                    <br>
-                                    <a>[Active]</a>
-                                    <br>
-                                    <a>Becomes one with the shadow to avoid being seen by enemies</a>
-                                    <a>∴ Immediately becomes invisible and gains bonus movement speed</a>
-                                    <a>∴ Next attack within 6 seconds inflicts attack damage X 1 + AGI X 7.5 magic
-                                        damage</a>
-                                    <a>∴ Stuns for 1 second</a>
-                                    <a>∴ If struck from behind, damage increased by 50%</a>
-                                    <br>
-                                    <a>Cooldown: 12.5 seconds</a>
-                                </div>
-                            </div>
-
-                            <!-- ability R -->
-
-                            <div class="ability-r ability">
-                                <div class="ability-r-title ability-title">
-                                    <h3>[R] Smoke Bomb</h3>
-                                    <img src="./abilities/Assassin-R.jpg">
-                                </div>
-                                <div class="ability-r-description ability-description">
-                                    <a>[Proc Co-efficient]: 1</a>
-                                    <br>
-                                    <a>[Active]</a>
-                                    <br>
-                                    <a>Throw down a poisonous smoke bomb that confuses enemies.</a>
-                                    <a>∴ AGI x 1 magic damage each second for 6 seconds</a>
-                                    <a>∴ Reduces damage taken by allies by 40%</a>
-                                    <a>∴ While staying within the smoke, invisibility transition speed increased by 300%
-                                        and
-                                        not interrupted by your attacks</a>
-                                    <br>
-                                    <a>Cooldown: 15 seconds</a>
-                                </div>
-                            </div>
-
-                            <!-- ability T -->
-
-                            <div class="ability-t ability">
-                                <div class="ability-t-title ability-title">
-                                    <h3>[T] Shadow Rush</h3>
-                                    <img src="./abilities/Assassin-T.jpg">
-                                </div>
-                                <div class="ability-t-description ability-description">
-                                    <a>[Proc Co-efficient]: 1</a>
-                                    <br>
-                                    <a>[Active]</a>
-                                    <br>
-                                    <a>Summon shadows from all directions and rush toward the target point.</a>
-                                    <a>∴ AGI X 6 magic damage</a>
-                                    <a>∴ Summons 4 additional shadows that imitates the skill</a>
-                                    <a>∴ Shadows will also imitate next Shadow Slash or Ambush, dealing 50% damage</a>
-                                    <br>
-                                    <a>Cooldown: 20 seconds</a>
-                                </div>
-                            </div>
-
-                            <!-- ability F -->
-
-                            <div class="ability-f ability">
-                                <div class="ability-f-title ability-title">
-                                    <h3>[F] Night Fury</h3>
-                                    <img src="./abilities/Assassin-F.jpg">
-                                </div>
-                                <div class="ability-f-description ability-description">
-                                    <a>[Proc Co-efficient]: 1</a>
-                                    <br>
-                                    <a>[Active]</a>
-                                    <br>
-                                    <a>∴ Each wave deals AGI X 3 damage</a>
-                                    <a>∴ Assassination deals AGI X 37.5 damage</a>
-                                    <a>∴ Deals 9% bonus damage for each stack of Shadow Mark</a>
-                                    <a>∴ Critically strikes enemies within 250 distance from the center</a>
-                                    <br>
-                                    <a>Cooldown: 120 seconds</a>
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
+
+                    <div class="abilities-show">
+
+                        <!-- ability D -->
+
+                        <div class="ability ability-d">
+                            <div class="ability-d-title ability-title">
+                                <h3>[D] Dark Shroud</h3>
+                                <img src="./abilities/Assassin-D.jpg">
+                            </div>
+                            <div class="ability-d-description ability-description">
+                                <a>[Proc Co-efficient]: 1</a>
+                                <br>
+                                <a>[Passive]</a>
+                                <br>
+                                <a>Ability to meld into darkness and assassinate effortlessly.</a>
+                                <a>∴ Allows all skills to critically strike</a>
+                                <a>∴ Enters stealth if out of combat for 2.5 seconds</a>
+                                <a>∴ Backstabbing enemies while stealthed deals AGI X 5 bonus damage</a>
+                                <a>∴ Reduces damage taken by 30% while stealthed</a>
+                                <br>
+                                <a>[Toggle]</a>
+                                <br>
+                                <a>∴ TOGGLE OFF: Enable invisibility</a>
+                                <a>∴ TOGGLE ON: Disable invisibility</a>
+                            </div>
+                        </div>
+
+                        <!-- ability Q -->
+
+                        <div class="ability-q ability">
+                            <div class="ability-q-title ability-title">
+                                <h3>[Q] Shadow Slash</h3>
+                                <img src="./abilities/Assassin-Q.jpg">
+                            </div>
+                            <div class="ability-q-description ability-description">
+                                <a>[Proc Co-efficient]: 1</a>
+                                <br>
+                                <a>[Active]</a>
+                                <br>
+                                <a>Perform a frontal slash aimed toward weak spots.</a>
+                                <a>∴ Attack damage X 0.4 + AGI X 3.5 magic damage</a>
+                                <a>∴ If an enemy is hit, obtains Shadow Mark for 10 seconds, increasing critical
+                                    chance
+                                    by
+                                    6% (up to 5 stacks)</a>
+                                <a>∴ At max stacks, the duration no longer refreshes but resets cooldown on Shadow
+                                    Slash
+                                    and Shadow Rush</a>
+                                <br>
+                                <a>Cooldown: 3 seconds</a>
+                            </div>
+                        </div>
+
+                        <!-- ability W -->
+
+                        <div class="ability-w ability">
+                            <div class="ability-w-title ability-title">
+                                <h3>[W] Ambush</h3>
+                                <img src="./abilities/Assassin-W.jpg">
+                            </div>
+                            <div class="ability-w-description ability-description">
+                                <a>[Proc Co-efficient]: 1</a>
+                                <br>
+                                <a>[Active]</a>
+                                <br>
+                                <a>Melds into the darkness to strike the enemy from behind.</a>
+                                <a>∴ Attack damage X 1.25 + AGI X 7.5 magic damage</a>
+                                <a>∴ Stuns for 1.5 seconds</a>
+                                <a>∴ After cast, increases attack damage by 20% for 6 seconds</a>
+                                <a>∴ Critical strike is guaranteed if used while invisible</a>
+                                <br>
+                                <a>Cooldown: 10 seconds</a>
+                            </div>
+                        </div>
+
+                        <!-- ability E -->
+
+                        <div class="ability-e ability">
+                            <div class="ability-e-title ability-title">
+                                <h3>[E] Shadow Walk</h3>
+                                <img src="./abilities/Assassin-E.jpg">
+                            </div>
+                            <div class="ability-e-description ability-description">
+                                <a>[Proc Co-efficient]: 1</a>
+                                <br>
+                                <a>[Active]</a>
+                                <br>
+                                <a>Becomes one with the shadow to avoid being seen by enemies</a>
+                                <a>∴ Immediately becomes invisible and gains bonus movement speed</a>
+                                <a>∴ Next attack within 6 seconds inflicts attack damage X 1 + AGI X 7.5 magic
+                                    damage</a>
+                                <a>∴ Stuns for 1 second</a>
+                                <a>∴ If struck from behind, damage increased by 50%</a>
+                                <br>
+                                <a>Cooldown: 12.5 seconds</a>
+                            </div>
+                        </div>
+
+                        <!-- ability R -->
+
+                        <div class="ability-r ability">
+                            <div class="ability-r-title ability-title">
+                                <h3>[R] Smoke Bomb</h3>
+                                <img src="./abilities/Assassin-R.jpg">
+                            </div>
+                            <div class="ability-r-description ability-description">
+                                <a>[Proc Co-efficient]: 1</a>
+                                <br>
+                                <a>[Active]</a>
+                                <br>
+                                <a>Throw down a poisonous smoke bomb that confuses enemies.</a>
+                                <a>∴ AGI x 1 magic damage each second for 6 seconds</a>
+                                <a>∴ Reduces damage taken by allies by 40%</a>
+                                <a>∴ While staying within the smoke, invisibility transition speed increased by 300%
+                                    and
+                                    not interrupted by your attacks</a>
+                                <br>
+                                <a>Cooldown: 15 seconds</a>
+                            </div>
+                        </div>
+
+                        <!-- ability T -->
+
+                        <div class="ability-t ability">
+                            <div class="ability-t-title ability-title">
+                                <h3>[T] Shadow Rush</h3>
+                                <img src="./abilities/Assassin-T.jpg">
+                            </div>
+                            <div class="ability-t-description ability-description">
+                                <a>[Proc Co-efficient]: 1</a>
+                                <br>
+                                <a>[Active]</a>
+                                <br>
+                                <a>Summon shadows from all directions and rush toward the target point.</a>
+                                <a>∴ AGI X 6 magic damage</a>
+                                <a>∴ Summons 4 additional shadows that imitates the skill</a>
+                                <a>∴ Shadows will also imitate next Shadow Slash or Ambush, dealing 50% damage</a>
+                                <br>
+                                <a>Cooldown: 20 seconds</a>
+                            </div>
+                        </div>
+
+                        <!-- ability F -->
+
+                        <div class="ability-f ability">
+                            <div class="ability-f-title ability-title">
+                                <h3>[F] Night Fury</h3>
+                                <img src="./abilities/Assassin-F.jpg">
+                            </div>
+                            <div class="ability-f-description ability-description">
+                                <a>[Proc Co-efficient]: 1</a>
+                                <br>
+                                <a>[Active]</a>
+                                <br>
+                                <a>∴ Each wave deals AGI X 3 damage</a>
+                                <a>∴ Assassination deals AGI X 37.5 damage</a>
+                                <a>∴ Deals 9% bonus damage for each stack of Shadow Mark</a>
+                                <a>∴ Critically strikes enemies within 250 distance from the center</a>
+                                <br>
+                                <a>Cooldown: 120 seconds</a>
+                            </div>
+                        </div>
+
+                    </div>
+
                     <div class="abilities-video">
                         <video class="ability-video-d" src="./abilities/Assassin-D.mp4" autoplay muted loop></video>
                         <video class="ability-video-q" src="./abilities/Assassin-Q.mp4" autoplay muted loop></video>

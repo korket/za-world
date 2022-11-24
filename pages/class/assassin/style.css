@@ -174,36 +174,33 @@ main {
 }
 
 .abilities-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    display: grid;
     background-color: #3b3b3b;
     border-radius: 10px;
     padding: 1rem 1rem;
-    gap: 2rem;
+    gap: 1.5rem;
+    grid-template-columns: 3rem 1fr;
 }
 
-.abilities-content {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    gap: 1rem;
-    min-height: 450px;
+.abilities-select {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
-.ability-select {
+.abilities-button {
     display: flex;
     background-color: #2b2b2b;
+    border-radius: 10px;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     padding: 0.5rem;
+    height: 425px;
     max-width: 3rem;
-    border-radius: 10px;
-    flex-basis: 10%;
-    max-height: 425px;
 }
 
-.ability-select button {
+.abilities-button button {
     background-color: #7fffd4dd;
     border: none;
     border-radius: 5px;
@@ -211,58 +208,55 @@ main {
     cursor: pointer;
 }
 
-.ability-show {
-    display: flex;
-    flex-grow: 1;
-    flex-basis: 90%;
+.abilities-show {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
-.ability-show img {
+.abilities-show img {
     max-height: 50px;
 }
 
 .abilities-video {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    margin: 0 auto;
 }
 
 .abilities-video video {
     display: none;
     border: 2px solid #1b1b1b;
     border-radius: 10px;
-    max-width: 85vw;
+    max-width: 100%;
 }
 
 @media (min-width: 1000px) {
     .abilities-container {
-        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3rem 1fr;
     }
 
-    .abilities-content {
-        flex-direction: column;
-        align-items: flex-start;
+    .abilities-select {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
     }
 
-    .ability-select {
+    .abilities-button {
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        height: 2.5rem;
         max-width: 100%;
-        gap: 2rem;
-}
+    }
 
-    .ability-show {
-        display: flex;
-        justify-content: center;
-        max-width: 425px;
-        padding: 0 0 0rem 1rem;
+    .abilities-show {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
     }
 
     .abilities-video {
-        justify-content: center;
-        align-items: flex-start;
-        flex: 1;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
     }
 
     .abilities-video video {
