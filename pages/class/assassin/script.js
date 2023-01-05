@@ -1,96 +1,71 @@
-const ability_d = document.querySelector('.ability-d');
-const video_d = document.querySelector('.ability-video-d');
+// abilities selector
+
+const ability = document.querySelectorAll('.ability');
+
+const ability_d = document.querySelectorAll('.ability-d');
 const button_d = document.querySelector('.button-d');
 
-const ability_q = document.querySelector('.ability-q');
-const video_q = document.querySelector('.ability-video-q');
+const ability_q = document.querySelectorAll('.ability-q');
 const button_q = document.querySelector('.button-q');
 
-const ability_w = document.querySelector('.ability-w');
-const video_w = document.querySelector('.ability-video-w');
+const ability_w = document.querySelectorAll('.ability-w');
 const button_w = document.querySelector('.button-w');
 
-const ability_e = document.querySelector('.ability-e');
-const video_e = document.querySelector('.ability-video-e');
+const ability_e = document.querySelectorAll('.ability-e');
 const button_e = document.querySelector('.button-e');
 
-const ability_r = document.querySelector('.ability-r');
-const video_r = document.querySelector('.ability-video-r');
+const ability_r = document.querySelectorAll('.ability-r');
 const button_r = document.querySelector('.button-r');
 
-const ability_t = document.querySelector('.ability-t');
-const video_t = document.querySelector('.ability-video-t');
+const ability_t = document.querySelectorAll('.ability-t');
 const button_t = document.querySelector('.button-t');
 
-const ability_f = document.querySelector('.ability-f');
-const video_f = document.querySelector('.ability-video-f');
+const ability_f = document.querySelectorAll('.ability-f');
 const button_f = document.querySelector('.button-f');
 
-button_d.addEventListener('click', hide);
-button_d.addEventListener('click', showD);
-button_q.addEventListener('click', hide);
-button_q.addEventListener('click', showQ);
-button_w.addEventListener('click', hide);
-button_w.addEventListener('click', showW);
-button_e.addEventListener('click', hide);
-button_e.addEventListener('click', showE);
-button_r.addEventListener('click', hide);
-button_r.addEventListener('click', showR);
-button_t.addEventListener('click', hide);
-button_t.addEventListener('click', showT);
-button_f.addEventListener('click', hide);
-button_f.addEventListener('click', showF);
+// abilities functions and event listeners
 
-window.onload = showD;
+ability_d[0].style.display = 'flex'; 
+ability_d[1].style.display = 'flex';
 
 function hide() {
-    ability_d.style.display = 'none';
-    ability_q.style.display = 'none';
-    ability_w.style.display = 'none';
-    ability_e.style.display = 'none';
-    ability_r.style.display = 'none';
-    ability_t.style.display = 'none';
-    ability_f.style.display = 'none';
-    video_d.style.display = 'none';
-    video_q.style.display = 'none';
-    video_w.style.display = 'none';
-    video_e.style.display = 'none';
-    video_r.style.display = 'none';
-    video_t.style.display = 'none';
-    video_f.style.display = 'none';
-}
+    for (const abilities of ability) {
+        abilities.style.display = 'none';
+    };
+};
 
-function showD() {
-    ability_d.style.display = 'flex';
-    video_d.style.display = 'flex';
-}
+button_d.addEventListener('click', () => {
+    hide();
+    ability_d[0].style.display = 'flex';
+    ability_d[1].style.display = 'flex';
+});
 
-function showQ() {
-    ability_q.style.display = 'flex';
-    video_q.style.display = 'flex';
-}
+button_q.addEventListener('click', () => {
+    hide();
+    ability_q[0].style.display = 'flex';
+    ability_q[1].style.display = 'flex';
+});
 
-function showW() {
-    ability_w.style.display = 'flex';
-    video_w.style.display = 'flex';
-}
+button_w.addEventListener('click', () => {
+    hide();
+    ability_w[0].style.display = 'flex';
+    ability_w[1].style.display = 'flex';
+});
 
-function showE() {
-    ability_e.style.display = 'flex';
-    video_e.style.display = 'flex';
-}
+button_e.addEventListener('click', () => {
+    hide();
+    ability_e[0].style.display = 'flex';
+    ability_e[1].style.display = 'flex';
+});
 
-function showR() {
-    ability_r.style.display = 'flex';
-    video_r.style.display = 'flex';
-}
+button_t.addEventListener('click', () => {
+    hide();
+    ability_t[0].style.display = 'flex';
+    ability_t[1].style.display = 'flex';
+})
 
-function showT() {
-    ability_t.style.display = 'flex';
-    video_t.style.display = 'flex';
-}
-
-function showF() {
-    ability_f.style.display = 'flex';
-    video_f.style.display = 'flex';
-}
+button_f.addEventListener('click', () => {
+    hide();
+    ability_f[0].style.display = 'flex';
+    ability_f[1].style.display = 'flex';
+})
