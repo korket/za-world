@@ -58,6 +58,12 @@ button_e.addEventListener('click', () => {
     ability_e[1].style.display = 'flex';
 });
 
+button_r.addEventListener('click', () => {
+    hide();
+    ability_r[0].style.display = 'flex';
+    ability_r[1].style.display = 'flex';
+});
+
 button_t.addEventListener('click', () => {
     hide();
     ability_t[0].style.display = 'flex';
